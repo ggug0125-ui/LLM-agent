@@ -1,0 +1,42 @@
+[
+    {
+        "no": 1,
+        "eng": "Which of the following descriptions of the image is incorrect?\n- (1) Many people are using laptops in a conference space.\n- (2) There are several lights installed on the ceiling.\n- (3) People are meeting in a natural outdoor setting.\n- (4) A large electronic display is visible on the wall of the conference hall.",
+        "img": "busan_dive.jpg"
+    },
+    {
+        "no": 2,
+        "eng": "Which of the following descriptions of the image is incorrect?\n- (1) There is a large yellow sculpture in the image.\n- (2) The building is named 'Local Stitch'.\n- (3) The exterior walls of the building are painted blue.\n- (4) There are several windows visible on the building.",
+        "img": "local_stitch.jpg"
+    },
+    {
+        "no": 3,
+        "eng": "Which of the following descriptions of the image is incorrect?\n- (1) The cafe has a yellow wall.\n- (2) Customers are ordering at the counter.\n- (3) Trees are visible outside the windows.\n- (4) All tables have people sitting at them.",
+        "img": "local_stitch_terrarosa.jpg"
+    },
+    {
+        "no": 4,
+        "eng": "Which of the following descriptions of the image is incorrect?\n- (1) A coffee shop is located on the first floor of the building.\n- (2) The building is made of red bricks.\n- (3) The traffic light at the intersection shows green.\n- (4) There is an orange cone placed on the road in front of the building.",
+        "img": "mangwon.jpg"
+    },
+    {
+        "no": 5,
+        "eng": "Which of the following descriptions of the image is incorrect?\n- (1) Various types of bread are displayed.\n- (2) Two clerks wearing caps are visible.\n- (3) All the bread prices are the same.\n- (4) The display is divided into two levels.",
+        "img": "mangwon_bakery.jpg"
+    },
+    {
+        "no": 6,
+        "eng": "Which of the following descriptions of the image is incorrect?\n- (1) People are working outside the building.\n- (2) There are red chairs stacked in the middle.\n- (3) One of the workers is wearing a white helmet.\n- (4) On the right, you can see a sign with \"뉴트리코어\" (Nutricore).",
+        "img": "sangam_interior.jpg"
+    },
+    {
+        "no": 7,
+        "eng": "Which of the following descriptions of the image is incorrect?\n- (1) Natural light is coming through large windows.\n- (2) People are studying individually at tables.\n- (3) There are several chairs arranged in what appears to be a dining area.\n- (4) The floor is finished with dark wood.",
+        "img": "seolleung_terrarosa.jpg"
+    },
+    {
+        "no": 8,
+        "eng": "Which of the following descriptions of the image is incorrect?\n- (1) People are queuing to board a bus.\n- (2) The window of the café has the words \"COFFEE & BAKERY\" on it.\n- (3) Trees are lined up next to the station.\n- (4) Everyone is wearing black clothes.",
+        "img": "stanford_coffee.jpg"
+    }
+]

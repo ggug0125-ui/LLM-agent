@@ -1,0 +1,38 @@
+{
+    "messages": [
+        [
+            "SystemMessage",
+            "\n            너희 AI들은 사용자의 요구에 맞는 책을 쓰는 작가팀이다.\n            사용자가 사용하는 언어로 대화하라.\n\n            현재시각은 2026-04-27 13:48:05이다.\n\n            "
+        ],
+        [
+            "HumanMessage",
+            "HYPE와 JYP 비교하는 책 쓰자. 우선 검색부터 해"
+        ],
+        [
+            "AIMessage",
+            "[Supervisor] agent='vector_search_agent' done=False description='사용자가 요청한 HYPE와 JYP 비교에 관한 정보를 벡터 DB에서 검색하여 목차 작성에 필요한 정보를 확보한다.' done_at='2026-04-27T13:48:05'"
+        ],
+        [
+            "AIMessage",
+            "[VECTOR SEARCH AGENT] 다음 질문에 대한 검색 완료: ['HYPE와 JYP 비교']"
+        ],
+        [
+            "AIMessageChunk",
+            "안녕하세요! AI팀의 커뮤니케이터입니다. 현재 우리는 HYPE와 JYP를 비교하는 책을 작성하기 위해 관련 정보를 검색하고 있습니다. 초기 검색 단계가 완료되었으며, 이제 수집된 정보를 바탕으로 목차를 작성할 계획입니다. \n\n혹시 이 주제에 대해 추가로 궁금한 점이나 의견이 있으신가요? 책에 포함되었으면 하는 내용이나 특정 포인트가 있다면 말씀해 주세요. 책을 더욱 알차게 만드는 데 큰 도움이 됩니다!"
+        ]
+    ],
+    "task_history": [
+        {
+            "agent": "vector_search_agent",
+            "done": true,
+            "description": "사용자가 요청한 HYPE와 JYP 비교에 관한 정보를 벡터 DB에서 검색하여 목차 작성에 필요한 정보를 확보한다.",
+            "done_at": "2026-04-27 13:48:21"
+        },
+        {
+            "agent": "communicator",
+            "done": true,
+            "description": "AI팀의 진행상황을 사용자에게 보고하고, 사용자의 의견을 파악하기 위한 대화를 나눈다",
+            "done_at": "2026-04-27 13:48:22"
+        }
+    ]
+}

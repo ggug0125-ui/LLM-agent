@@ -1,0 +1,96 @@
+{
+    "messages": [
+        [
+            "SystemMessage",
+            "\n            너희 AI들은 사용자의 요구에 맞는 책을 쓰는 작가팀이다.\n            사용자가 사용하는 언어로 대화하라.\n\n            현재시각은 2026-04-27 14:33:32이다.\n\n            "
+        ],
+        [
+            "HumanMessage",
+            "HYPE와 JYP 비교하는 책 쓰자. 우선 검색부터 해"
+        ],
+        [
+            "AIMessage",
+            "[Supervisor] agent='web_search_agent' done=False description='사용자가 요청한 HYPE와 JYP에 대한 정보를 웹 검색을 통해 수집한다.' done_at='2026-04-27T14:33:32'"
+        ],
+        [
+            "AIMessage",
+            "[WEB SEARCH AGENT] 다음 질문에 대한 검색 완료: ['HYPE 엔터테인먼트 회사 정보', 'JYP 엔터테인먼트 회사 정보']"
+        ],
+        [
+            "AIMessage",
+            "[VECTOR SEARCH AGENT] 다음 질문에 대한 검색 완료: ['HYPE 엔터테인먼트 회사 정보', 'JYP 엔터테인먼트 회사 정보']"
+        ],
+        [
+            "AIMessageChunk",
+            "안녕하세요! 현재 저희 AI팀은 HYPE와 JYP 엔터테인먼트에 대한 정보를 수집하는 단계를 완료했습니다. 웹 검색과 벡터 검색을 통해 두 회사의 다양한 정보를 확보한 상태입니다. 다음 단계로는 이 정보를 바탕으로 목차를 구성하고, 본격적인 내용 작성을 진행할 계획입니다. \n\n혹시 이 책에서 특별히 다뤘으면 하는 주제가 있거나, 추가로 궁금한 점이 있다면 말씀해 주세요. 이를 반영하여 더욱 유익한 내용을 제공할 수 있도록 하겠습니다."
+        ]
+    ],
+    "task_history": [
+        {
+            "agent": "web_search_agent",
+            "done": true,
+            "description": "사용자가 요청한 HYPE와 JYP에 대한 정보를 웹 검색을 통해 수집한다.",
+            "done_at": "2026-04-27 14:34:11"
+        },
+        {
+            "agent": "vector_search_agent",
+            "done": true,
+            "description": "AI팀이 쓸 책의 세부 목차를 결정하기 위한 정보를 벡터 검색을 통해 찾아낸다. 다음 항목이 새로 추가되었다\n: ['HYPE 엔터테인먼트 회사 정보', 'JYP 엔터테인먼트 회사 정보']",
+            "done_at": "2026-04-27 14:34:13"
+        },
+        {
+            "agent": "communicator",
+            "done": true,
+            "description": "AI팀의 진행상황을 사용자에게 보고하고, 사용자의 의견을 파악하기 위한 대화를 나눈다",
+            "done_at": "2026-04-27 14:34:14"
+        }
+    ],
+    "references": {
+        "queries": [
+            "HYPE 엔터테인먼트 회사 정보",
+            "JYP 엔터테인먼트 회사 정보"
+        ],
+        "docs": [
+            {
+                "source": "https://www.saramin.co.kr/zf_user/company-info/view/csn/RkRqYjFMRnM0UWEwcHc4a3g3clJ3dz09/company_nm/(%EC%A3%BC)%ED%95%98%EC%9D%B4%EB%B8%8C?srsltid=AfmBOoosFgOt09_7UtSr_dF0-sLzs_NAACCaN2t2l2ux4e3N_hwWuYG6",
+                "title": "(주)하이브 2026년 기업정보 | 직원수, 근무환경, 복리후생 등 - 사람인"
+            },
+            {
+                "source": "https://www.saramin.co.kr/zf_user/company-info/view/csn/RkRqYjFMRnM0UWEwcHc4a3g3clJ3dz09/company_nm/(%EC%A3%BC)%ED%95%98%EC%9D%B4%EB%B8%8C?srsltid=AfmBOoosFgOt09_7UtSr_dF0-sLzs_NAACCaN2t2l2ux4e3N_hwWuYG6",
+                "title": "(주)하이브 2026년 기업정보 | 직원수, 근무환경, 복리후생 등 - 사람인"
+            },
+            {
+                "source": "https://www.saramin.co.kr/zf_user/company-info/view/csn/RkRqYjFMRnM0UWEwcHc4a3g3clJ3dz09/company_nm/(%EC%A3%BC)%ED%95%98%EC%9D%B4%EB%B8%8C?srsltid=AfmBOoosFgOt09_7UtSr_dF0-sLzs_NAACCaN2t2l2ux4e3N_hwWuYG6",
+                "title": "(주)하이브 2026년 기업정보 | 직원수, 근무환경, 복리후생 등 - 사람인"
+            },
+            {
+                "source": "https://en.wikipedia.org/wiki/Hybe",
+                "title": "Hybe - Wikipedia"
+            },
+            {
+                "source": "https://en.wikipedia.org/wiki/Hybe",
+                "title": "Hybe - Wikipedia"
+            },
+            {
+                "source": "https://www.jype.com/ko/JYP/Contact",
+                "title": "JYP Entertainment"
+            },
+            {
+                "source": "https://kr.linkedin.com/company/jyp-entertainment",
+                "title": "JYP Entertainment - LEADER IN ENTERTAINMENT"
+            },
+            {
+                "source": "https://namu.wiki/w/JYP%EC%97%94%ED%84%B0%ED%85%8C%EC%9D%B8%EB%A8%BC%ED%8A%B8",
+                "title": "JYP엔터테인먼트 - 나무위키"
+            },
+            {
+                "source": "https://namu.wiki/w/JYP%EC%97%94%ED%84%B0%ED%85%8C%EC%9D%B8%EB%A8%BC%ED%8A%B8",
+                "title": "JYP엔터테인먼트 - 나무위키"
+            },
+            {
+                "source": "https://namu.wiki/w/JYP%EC%97%94%ED%84%B0%ED%85%8C%EC%9D%B8%EB%A8%BC%ED%8A%B8",
+                "title": "JYP엔터테인먼트 - 나무위키"
+            }
+        ]
+    }
+}
