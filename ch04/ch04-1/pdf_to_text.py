@@ -2,7 +2,7 @@ import pymupdf # pip install PyMuPDF
 import os
 
 #① pdf 파일을 페이지별로 내용을 읽어 온다.
-pdf_file_path = "../../ch04/data/과정기반 작물모형을 이용한 웹 기반 밀 재배관리 의사결정 지원시스템 설계 및 구축.pdf"
+pdf_file_path = "../../ch04/data/농업 현장데이터의 디지털 전환을 위한 영농일지 표준화와 자동화 전략.pdf"
 doc = pymupdf.open(pdf_file_path)
 
 full_text = ''

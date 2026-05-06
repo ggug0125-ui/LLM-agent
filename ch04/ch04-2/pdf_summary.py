@@ -84,5 +84,5 @@ def summarize_pdf(pdf_file_path: str, output_file_path: str):
 
 
 if __name__ == '__main__':
-    pdf_file_path = "../../ch04/data/과정기반 작물모형을 이용한 웹 기반 밀 재배관리 의사결정 지원시스템 설계 및 구축.pdf"
+    pdf_file_path = "../../ch04/data/농업 현장데이터의 디지털 전환을 위한 영농일지 표준화와 자동화 전략.pdf"
     summarize_pdf(pdf_file_path, '../../ch04/output/crop_model_summary2.txt')

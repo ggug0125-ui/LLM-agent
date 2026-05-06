@@ -1,69 +1,96 @@
-# 🔹 Ollama 기반 임베딩 (OpenAI 제거)
-from langchain_ollama import OllamaEmbeddings, ChatOllama
+import os
+import re
+import sqlite3
+from pathlib import Path
 
-# 🔹 벡터 DB
-from langchain_chroma import Chroma
-
-# 🔹 최신 체인
 from langchain.chains import create_retrieval_chain
-from langchain_core.prompts import ChatPromptTemplate
+from langchain_core.documents import Document
 from langchain_core.output_parsers import StrOutputParser
+from langchain_core.prompts import ChatPromptTemplate
+from langchain_core.runnables import RunnableLambda
+from langchain_ollama import ChatOllama
 
-# =========================
-# 1. Embedding (로컬)
-# =========================
-embedding = OllamaEmbeddings(
-    model="nomic-embed-text"
-)
 
-# =========================
-# 2. Vector DB 로드
-# =========================
-print("Loading existing Chroma store")
+ROOT_DIR = Path(__file__).resolve().parents[2]
+CHROMA_SQLITE = ROOT_DIR / "ch09" / "chroma_store" / "chroma.sqlite3"
 
-persist_directory = 'C:/Aiprojects/ch09/chroma_store'
 
-vectorstore = Chroma(
-    persist_directory=persist_directory,
-    embedding_function=embedding
-)
+def _load_documents():
+    con = sqlite3.connect(CHROMA_SQLITE)
+    rows = con.execute(
+        """
+        select doc.string_value as document,
+               source.string_value as source,
+               page.int_value as page
+        from embeddings e
+        join embedding_metadata doc on doc.id = e.id and doc.key = 'chroma:document'
+        left join embedding_metadata source on source.id = e.id and source.key = 'source'
+        left join embedding_metadata page on page.id = e.id and page.key = 'page'
+        order by e.id
+        """
+    ).fetchall()
+    con.close()
 
-# =========================
-# 3. Retriever
-# =========================
-retriever = vectorstore.as_retriever(search_kwargs={"k": 3})
+    return [
+        Document(
+            page_content=document,
+            metadata={"source": source or "", "page": page if page is not None else ""},
+        )
+        for document, source, page in rows
+        if document
+    ]
 
-# =========================
-# 4. LLM (DeepSeek)
-# =========================
+
+DOCUMENTS = _load_documents()
+
+
+def _terms(text):
+    words = re.findall(r"[A-Za-z0-9_]+|[가-힣]+", text.lower())
+    stopwords = {"나는", "안녕", "이야", "입니다", "해줘", "알려줘"}
+    return [word for word in words if len(word) > 1 and word not in stopwords]
+
+
+def _retrieve(input_text):
+    query = input_text["input"] if isinstance(input_text, dict) else str(input_text)
+    terms = _terms(query)
+
+    if not terms:
+        return []
+
+    scored = []
+    for doc in DOCUMENTS:
+        content = doc.page_content.lower()
+        score = sum(content.count(term) for term in terms)
+        if score:
+            scored.append((score, doc))
+
+    scored.sort(key=lambda item: item[0], reverse=True)
+    return [doc for _, doc in scored[:3]]
+
+
+retriever = RunnableLambda(_retrieve)
+
 llm = ChatOllama(
-    model="deepseek-r1:latest"
+    model=os.getenv("OLLAMA_CHAT_MODEL", "deepseek-r1:7b")
 )
 
-# =========================
-# 5. Prompt
-# =========================
-prompt = ChatPromptTemplate.from_template("""
-너는 도시 정책 전문가야.
-아래 문서를 기반으로 사용자 질문에 답변해라.
+prompt = ChatPromptTemplate.from_template(
+    """
+You are a document-based assistant.
 
-문서:
+If the context is empty and the user is greeting you, reply with a short friendly greeting.
+If the context is empty and the user asks about documents, say that you could not find relevant document content.
+Otherwise, answer using the context below.
+
+Context:
 {context}
 
-질문:
+Question:
 {input}
-""")
-
-# =========================
-# 6. RAG Chain (핵심)
-# =========================
-chain = create_retrieval_chain(
-    retriever,
-    prompt | llm | StrOutputParser()
+"""
 )
 
-# https://visualstudio.microsoft.com/visual-cpp-build-tools/ 
-# python.exe -m pip install --upgrade pip
-# pip uninstall langchain langchain-core langchain-community langchain-ollama langsmith -y
-# pip install langchain==0.2.16 langchain-core==0.2.38 langchain-community==0.2.16 langchain-ollama==0.1.3 langchain-chroma==0.1.2 chromadb==0.4.24
-# streamlit run rag_deepseek.py              
+chain = create_retrieval_chain(
+    retriever,
+    prompt | llm | StrOutputParser(),
+)

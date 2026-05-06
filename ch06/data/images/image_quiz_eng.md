@@ -3,18 +3,18 @@
 ![image](busan_dive.jpg)
 
 Q: 다음 이미지에 대한 설명 중 옳지 않은 것은 무엇인가요?
-- (1) 많은 사람들이 회의 공간에서 노트북을 사용하고 있습니다.
-- (2) 천장에는 여러 개의 조명이 설치되어 있습니다.
-- (3) 사람들이 자연 속에서 미팅을 하고 있습니다.
-- (4) 회의장의 벽면에 큰 전광판이 보입니다.
+- (1) 많은 사람들이 테이블에 앉아 컴퓨터를 사용하고 있습니다.
+- (2) 이미지 상단에 "DIVE 2024 IN BUSAN"이라는 문구가 보입니다.
+- (3) 사람들이 대화를 나누는 공원 장면입니다.
+- (4) 실내에서 이벤트가 진행되고 있는 모습입니다.
 
 Listening: Which of the following descriptions of the image is incorrect?
-- (1) Many people are using laptops in a conference space.
-- (2) There are several lights installed on the ceiling.
-- (3) People are meeting in a natural outdoor setting.
-- (4) A large electronic display is visible on the wall of the conference hall.
+- (1) Many people are sitting at tables using computers.
+- (2) The text "DIVE 2024 IN BUSAN" is visible at the top of the image.
+- (3) It is a scene of people conversing in a park.
+- (4) An event is taking place indoors.
 
-정답: (3) 사람들이 실내에서 미팅을 하고 있습니다.
+정답: (3) 사람들은 공원이 아닌 실내에서 이벤트에 참여하고 있습니다.
 
 ---------------------
 
@@ -23,18 +23,18 @@ Listening: Which of the following descriptions of the image is incorrect?
 ![image](local_stitch.jpg)
 
 Q: 다음 이미지에 대한 설명 중 옳지 않은 것은 무엇인가요?
-- (1) 이미지에는 대형 노란색 조각이 있습니다.
-- (2) 건물의 이름은 'Local Stitch'입니다.
-- (3) 건물 외벽은 파란색으로 칠해져 있습니다.
-- (4) 건물 창문이 여러 개 보입니다.
+- (1) 노란색 조형물이 보입니다.
+- (2) "Local Stitch"라는 글자가 건물에 보입니다.
+- (3) 건물 벽은 하얀색으로 칠해져 있습니다.
+- (4) 건물 옥상에 식물들이 보입니다.
 
 Listening: Which of the following descriptions of the image is incorrect?
-- (1) There is a large yellow sculpture in the image.
-- (2) The building is named 'Local Stitch'.
-- (3) The exterior walls of the building are painted blue.
-- (4) There are several windows visible on the building.
+- (1) A yellow sculpture is visible.
+- (2) The words "Local Stitch" are visible on the building.
+- (3) The building walls are painted white.
+- (4) There are plants visible on the building's rooftop.
 
-정답: (3) 건물 외벽은 파란색이 아닌 벽돌색으로 칠해져 있습니다.
+정답: (3) 건물 벽은 벽돌색과 갈색으로 되어 있습니다.
 
 ---------------------
 
@@ -43,18 +43,18 @@ Listening: Which of the following descriptions of the image is incorrect?
 ![image](local_stitch_terrarosa.jpg)
 
 Q: 다음 이미지에 대한 설명 중 옳지 않은 것은 무엇인가요?
-- (1) 카페에는 노란색 벽이 있습니다.
-- (2) 손님들이 카운터에서 주문하고 있습니다.
-- (3) 창밖으로 나무가 보입니다.
-- (4) 모든 테이블에 사람들이 앉아 있습니다.
+- (1) 노란색 벽이 있는 카페 내부가 보입니다.
+- (2) 사람들이 카운터에서 주문을 하고 있습니다.
+- (3) 테이블과 의자가 창가에 배치되어 있습니다.
+- (4) 카운터에는 여러 개의 에스프레소 머신이 있습니다.
 
 Listening: Which of the following descriptions of the image is incorrect?
-- (1) The cafe has a yellow wall.
-- (2) Customers are ordering at the counter.
-- (3) Trees are visible outside the windows.
-- (4) All tables have people sitting at them.
+- (1) It shows the interior of a cafe with a yellow wall.
+- (2) People are ordering at the counter.
+- (3) Tables and chairs are arranged by the window.
+- (4) There are several espresso machines on the counter.
 
-정답: (4) 모든 테이블에 사람들이 앉아 있는 것이 아니라 일부 테이블은 비어 있습니다.
+정답: (4) 카운터에는 에스프레소 머신이 여러 개가 아닌 하나 있습니다.
 
 ---------------------
 
@@ -63,18 +63,18 @@ Listening: Which of the following descriptions of the image is incorrect?
 ![image](mangwon.jpg)
 
 Q: 다음 이미지에 대한 설명 중 옳지 않은 것은 무엇인가요?
-- (1) 건물의 1층에 커피숍이 위치해 있습니다.
-- (2) 건물은 붉은 벽돌로 지어져 있습니다.
-- (3) 교차로의 신호등이 녹색으로 켜져 있습니다.
-- (4) 건물 앞 도로에 주황색 원뿔이 놓여 있습니다.
+- (1) 건물에는 큰 창문이 있으며, 내부가 보입니다.
+- (2) 길가에 주황색 원뿔이 놓여 있습니다.
+- (3) 건물 위쪽에는 휴대전화 기지국이 설치되어 있습니다.
+- (4) 벽돌로 지어진 건물입니다.
 
 Listening: Which of the following descriptions of the image is incorrect?
-- (1) A coffee shop is located on the first floor of the building.
-- (2) The building is made of red bricks.
-- (3) The traffic light at the intersection shows green.
-- (4) There is an orange cone placed on the road in front of the building.
+- (1) The building has large windows, and the interior is visible.
+- (2) There is an orange cone placed by the roadside.
+- (3) A mobile phone tower is installed on top of the building.
+- (4) The building is made of bricks.
 
-정답: (3) 교차로의 신호등은 보이지 않습니다.
+정답: (3) 건물 위쪽에는 휴대전화 기지국이 아닌 에어컨이 설치되어 있습니다.
 
 ---------------------
 
@@ -82,21 +82,21 @@ Listening: Which of the following descriptions of the image is incorrect?
 
 ![image](mangwon_bakery.jpg)
 
------
 Q: 다음 이미지에 대한 설명 중 옳지 않은 것은 무엇인가요?
+
 - (1) 다양한 종류의 빵이 진열되어 있습니다.
-- (2) 두 명의 점원이 모자를 쓰고 있는 모습이 보입니다.
-- (3) 빵 가격이 모두 동일합니다.
-- (4) 진열대는 두 층으로 나누어져 있습니다.
+- (2) 점원이 빵을 정리하고 있습니다.
+- (3) 빵 각각의 가격이 표시되어 있습니다.
+- (4) 유리 진열장 안쪽에 케이크가 놓여 있습니다.
 
 Listening: Which of the following descriptions of the image is incorrect?
-- (1) Various types of bread are displayed.
-- (2) Two clerks wearing caps are visible.
-- (3) All the bread prices are the same.
-- (4) The display is divided into two levels.
 
-정답: (3) 빵 가격이 모두 동일하지 않습니다. 가격이 다양합니다.
------
+- (1) Various types of bread are displayed.
+- (2) A shop assistant is arranging the bread.
+- (3) Each bread has a price listed.
+- (4) There is a cake inside the glass display.
+
+정답: (4) 유리 진열장 안쪽에는 케이크가 없고, 빵만 놓여 있습니다.
 
 ---------------------
 
@@ -105,18 +105,18 @@ Listening: Which of the following descriptions of the image is incorrect?
 ![image](sangam_interior.jpg)
 
 Q: 다음 이미지에 대한 설명 중 옳지 않은 것은 무엇인가요?
-- (1) 사람들이 건물 외부에서 작업을 하고 있습니다.
-- (2) 중간에 빨간색 의자들이 쌓여 있습니다.
-- (3) 작업자 중 한 명이 흰색 헬멧을 착용하고 있습니다.
-- (4) 오른쪽에는 "뉴트리코어"라는 상호가 보입니다.
+- (1) 사람들이 건물 밖에서 작업을 하고 있습니다.
+- (2) "베이커리 카페 폼베르"라는 간판이 보입니다.
+- (3) 작업자들은 헬멧을 착용하고 있습니다.
+- (4) 뉴트리코어 상점은 오른쪽에 위치해 있습니다.
 
 Listening: Which of the following descriptions of the image is incorrect?
 - (1) People are working outside the building.
-- (2) There are red chairs stacked in the middle.
-- (3) One of the workers is wearing a white helmet.
-- (4) On the right, you can see a sign with "뉴트리코어" (Nutricore).
+- (2) There is a sign for "Bakery Cafe Pomme Verte."
+- (3) The workers are wearing helmets.
+- (4) The Nutricore shop is located on the right.
 
-정답: (3) 작업자 중 헬멧을 착용한 사람이 보이지 않습니다.
+정답: (3) 작업자들은 헬멧을 착용하고 있지 않습니다.
 
 ---------------------
 
@@ -125,18 +125,18 @@ Listening: Which of the following descriptions of the image is incorrect?
 ![image](seolleung_terrarosa.jpg)
 
 Q: 다음 이미지에 대한 설명 중 옳지 않은 것은 무엇인가요?
-- (1) 넓은 창문을 통해 자연광이 들어오고 있습니다.
-- (2) 사람들이 책상에서 각자 공부를 하고 있는 모습입니다.
-- (3) 식사 공간으로 보이는 장소에 여러 개의 의자가 배치되어 있습니다.
-- (4) 바닥은 짙은 색의 나무로 마감되어 있습니다.
+- (1) 여러 사람들이 테이블에 앉아 있는 모습이 보입니다.
+- (2) 창문 밖으로 나무들이 보입니다.
+- (3) 모든 테이블이 가득 차 있습니다.
+- (4) 천장에 조명이 설치되어 있습니다.
 
 Listening: Which of the following descriptions of the image is incorrect?
-- (1) Natural light is coming through large windows.
-- (2) People are studying individually at tables.
-- (3) There are several chairs arranged in what appears to be a dining area.
-- (4) The floor is finished with dark wood.
+- (1) There are several people sitting at tables.
+- (2) Trees can be seen outside the windows.
+- (3) All the tables are occupied.
+- (4) There are lights installed on the ceiling.
 
-정답: (2) 사람들이 공부하는 모습이 아닌, 대화하는 모습이 담겨 있습니다.
+정답: (3) 모든 테이블이 가득 차 있는 것은 아닙니다. 몇몇 테이블은 비어 있습니다.
 
 ---------------------
 
@@ -145,18 +145,20 @@ Listening: Which of the following descriptions of the image is incorrect?
 ![image](stanford_coffee.jpg)
 
 Q: 다음 이미지에 대한 설명 중 옳지 않은 것은 무엇인가요?
-- (1) 사람들이 버스에 탑승하기 위해 줄을 서 있습니다.
-- (2) 커피숍 창문에는 "COFFEE & BAKERY"라는 글자가 보입니다.
-- (3) 정류장 옆에 나무들이 줄지어 서 있습니다.
-- (4) 사람이 모두 검은색 옷을 입고 있습니다.
+
+- (1) 버스 앞에 사람들이 줄 서 있습니다.
+- (2) 창문에 "BAKERY"라는 글자가 보입니다.
+- (3) 모든 사람들이 서있는 방향이 같습니다.
+- (4) 한 사람이 전화 통화를 하고 있는 모습이 있습니다.
 
 Listening: Which of the following descriptions of the image is incorrect?
-- (1) People are queuing to board a bus.
-- (2) The window of the café has the words "COFFEE & BAKERY" on it.
-- (3) Trees are lined up next to the station.
-- (4) Everyone is wearing black clothes.
 
-정답: (4) 옷의 색깔이 모두 검은색인 것은 아닙니다.
+- (1) People are lining up in front of the bus.
+- (2) The word "BAKERY" is visible on the window.
+- (3) All the people are facing the same direction.
+- (4) There is a person talking on the phone.
+
+정답: (3) 모든 사람들이 서있는 방향이 같지 않습니다.
 
 ---------------------
 
