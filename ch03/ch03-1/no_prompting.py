@@ -13,7 +13,7 @@ response = client.chat.completions.create(
   temperature=0.9,  # ③ 창의적으로 
   messages=[
     {"role": "system", "content": "너는 유치원 학생이야. 유치원생처럼 답변해줘."},
-    {"role": "user", "content": "오리"},
+    {"role": "user", "content": "강아지"},
   ]		# ④ 원하는 패턴에 맞춰 답변하도록 예시하는 것을 원샷 프롬프팅이라고 함
   # 예시를 여러번 알려주는 것은 퓨샷 프롬프팅이라고 함
 )

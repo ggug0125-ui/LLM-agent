@@ -1,10 +1,16 @@
 import os
+from pathlib import Path
 import torch
 import pandas as pd
-from transformers import AutoModelForSpeechSeq2Seq, AutoProcessor, pipeline 
-from pyannote.audio import Pipeline 
+from dotenv import load_dotenv
+from transformers import AutoModelForSpeechSeq2Seq, AutoProcessor, pipeline
 
-os.environ["PATH"] += os.pathsep + r"C:\Aiprojects\ffmpeg\bin" # 자신이 설치한 위치로 경로 수정
+load_dotenv()
+
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
+FFMPEG_BIN = PROJECT_ROOT / "ffmpeg" / "bin"
+if FFMPEG_BIN.exists():
+    os.environ["PATH"] += os.pathsep + str(FFMPEG_BIN)
 
 def whisper_stt(
     audio_file_path: str,      
@@ -60,9 +66,11 @@ def speaker_diarization(
         output_rttm_file_path: str,
         output_csv_file_path: str
     ):
+    from pyannote.audio import Pipeline
+
     pipeline = Pipeline.from_pretrained(
         "pyannote/speaker-diarization-3.1",
-        use_auth_token=os.getenv("HUGGINGFACE_TOKEN")
+        use_auth_token=os.getenv("HUGGINGFACE_TOKEN") or os.getenv("HUGGING_FACE_TOKEN")
     )
 
     # cuda가 사용 가능한 경우 cuda를 사용하도록 설정

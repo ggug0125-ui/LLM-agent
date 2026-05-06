@@ -18,7 +18,7 @@ response = client.chat.completions.create(
     {"role": "assistant", "content": "히이잉"}, # 힌트2
     {"role": "user", "content": "개구리"},
     {"role": "assistant", "content": "개굴개굴"}, # 힌트3
-    {"role": "user", "content": "뱀"},
+    {"role": "user", "content": "강아지"},
   ]		# ④ 퓨샷프롬프트
 )
 
